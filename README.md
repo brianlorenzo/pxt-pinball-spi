@@ -7,7 +7,7 @@
 pinballSPI.sendNumber(42)
 basic.forever(function () {
 	
-})
+}
 ```
 
 
