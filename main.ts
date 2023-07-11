@@ -4,17 +4,21 @@ namespace pinballSPI{
         MOSI    P15
         MISO    P14
         SCK     P13
+        CS      P0
+
+        MODO    3
+        CLK     1MHz
     */
     //% blockId=pinConfig
     //% block="Pin config"
     export function config(): void{
+        // Desactivo Chip Select (CS) en P0
         pins.digitalWritePin(DigitalPin.P0, 1);
-
         //           MOSI P15,        MISO P14,      SCK P13
         pins.spiPins(DigitalPin.P15, DigitalPin.P14, DigitalPin.P13);
         //          8 bits, Modo 3
         pins.spiFormat(8, 3);
-        
+        // Frecuencia del clock 1MHz
         pins.spiFrequency(1000000);
     }
 

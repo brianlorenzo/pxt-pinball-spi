@@ -24,3 +24,6 @@ This repository can be added as an **extension** in MakeCode.
 
 * for PXT/microbit
 <script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
+
+## Referencia de bloques Microbit
+[PXT - Microbit (Microsoft)](https://github.com/microsoft/pxt-microbit/)
