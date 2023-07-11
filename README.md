@@ -2,7 +2,7 @@
 > Open this page at [https://brianlorenzo.github.io/pxt-pinball-spi/](https://brianlorenzo.github.io/pxt-pinball-spi/)
 
 ## Bloques
-
+Uso de ```sendNumber```
 ```blocks
 basic.forever(function () {	
 pinballSPI.sendNumber(42)
