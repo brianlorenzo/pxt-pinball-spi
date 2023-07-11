@@ -5,6 +5,8 @@ namespace pinballSPI{
         MISO    P14
         SCK     P13
     */
+    //% blockId=pinConfig
+    //% block="Pin config"
     export function config(): void{
         pins.digitalWritePin(DigitalPin.P0, 1);
 
