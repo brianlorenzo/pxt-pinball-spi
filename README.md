@@ -5,8 +5,7 @@
 
 ```blocks
 pinballSPI.sendNumber(42)
-basic.forever(function () {
-	
+basic.forever(function () {	
 }
 ```
 
