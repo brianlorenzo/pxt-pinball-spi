@@ -21,7 +21,7 @@ namespace pinballSPI{
         Mando un número natural (entre 0 y 100) por SPI
     */
     //% blockId=sendNumberSPI
-    //% block="send number via SPI"
+    //% block="send number via SPI $x"
     //% x.min=0 x.max=100
     export function sendNumber (x:number): void {
     // Recibe un parámetro x. Devuelve nada, es void
