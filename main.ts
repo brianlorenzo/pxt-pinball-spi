@@ -32,6 +32,7 @@ namespace pinballSPI{
     export function sendNumber (x:number): void {
     // Recibe un parámetro x. Devuelve nada, es void
     const msj = x;  
+    pins.spiWrite(msj)
     }
 
 }
